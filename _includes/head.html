@@ -4,7 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip | truncate: 160 | escape }}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <link rel="apple-touch-icon" href="./assets/img/site/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/site/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/site/favicon/favicon-16x16.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/open-props.css'| url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css'| url }}">
+  <link rel="stylesheet" href="{{ '/assets/uswds/css/styles.css'| url }}">
+  <script src="{{ '/assets/uswds/js/uswds-init.min.js'| url }}"></script>
 </head>

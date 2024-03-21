@@ -1,27 +1,28 @@
-# USWDS Tutorial
+# USWDS Starter Template
 
-A tutorial project to learn about installing, compiling, and customizing with USWDS.
+---
+
+A site created using the [USWDS Tutorial Template](https://github.com/uswds/uswds-tutorial?tab=readme-ov-file) as a starting point.
+
+---
 
 ## Requirements
 
 - Node v18
 - Git
-- Access to a terminal application
-- A text editor
-- A modern web browser
 
 ## Installation
 
-1. Clone the tutorial repo, either in the terminal or with GitHub's `Use this template` button near the top of the page. **We recommend using the terminal and the command line.** If you choose to clone using the terminal, open a terminal window, navigate to the directory where you'd like to put the `uswds-tutorial` directory and run:
+1. Clone repo, either in the terminal or using the `Use this template` button near the top-right of the page and if you have not created a new directory for the project, include that in the `git clone` command.
 
     ```bash
-    git clone https://github.com/uswds/uswds-tutorial.git
+    git clone https://github.com/donnaada/uswds-starter-template.git <<DIRECTORY_NAME>>
     ```
 
-    This will create a `uswds-tutorial` directory with the tutorial files inside. Navigate to this new directory:
+    `cd` to this new directory:
 
     ```bash
-    cd uswds-tutorial
+    cd <<DIRECTORY_NAME>>
     ```
 
 1. Install the project dependencies:
@@ -29,6 +30,16 @@ A tutorial project to learn about installing, compiling, and customizing with US
     ```bash
     npm install
     ```
+   
+
+1. Initiate Gulp
+
+    ```bash
+    npx gulp init
+    ```
+
+    Script creates the following new USWDS assets in an `./assets/uswds` directory, theme files in a `./_theme directory`, and compiled CSS in the `./assets/uswds/css` directory.
+
 
 1. Start the tutorial server:
 
@@ -36,4 +47,18 @@ A tutorial project to learn about installing, compiling, and customizing with US
     npm start
     ```
 
-1. Once the server is running, head to [http://localhost:8080/](http://localhost:8080/) and follow the directions on the page!
+1. Once the server is running, you can view the site on [http://localhost:8080](http://localhost:8080)
+
+## Custom CSS
+
+Add custom css to `_theme/_uswds-theme-custom-styles.scss`.
+
+## Favicon
+
+Place site favicons in an `./assets/img/site/favicon` directory
+
+## Resources
+
+- [U.S. Web Design Systems](https://designsystem.digital.gov)
+- [11ty](https://www.11ty.dev)
+- [Liquid](https://shopify.github.io/liquid/)
