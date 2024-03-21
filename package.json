@@ -4,7 +4,7 @@
   "author": "dmaa",
   "license": "CC0-1.0",
   "scripts": {
-    "build": "npx @11ty/eleventy",
+    "build": "npx gulp compile && npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
     "serve": "npx @11ty/eleventy --serve",
     "test": "snyk test"
