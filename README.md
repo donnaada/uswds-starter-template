@@ -2,7 +2,7 @@
 
 ---
 
-A site created using the [USWDS Tutorial Template](https://github.com/uswds/uswds-tutorial?tab=readme-ov-file) as a starting point.
+A site templated created from the [USWDS Tutorial Template](https://github.com/uswds/uswds-tutorial?tab=readme-ov-file).
 
 ---
 
